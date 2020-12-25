@@ -1,0 +1,61 @@
+* {
+  margin: 0;  
+  padding: 0;
+  background-color: #fafbff;
+}
+
+form {
+  /* フォームをページ中央に置く */
+  margin: 0 auto;
+  width: 550px;
+  /* フォームの範囲がわかるようになる */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #0068b7;
+}
+
+label {
+  /* 全てのラベルを同じサイズにして、揃える */
+  display: inline-block;
+  width: 60px;
+  text-align: right;
+}
+
+input, textarea {
+  /* すべてのテキストボックスのフォント設定を統一 */
+  font: 1em sans-serif;
+  /* テキストボックスのボーダーの外見を同一にする */
+  border: 1px solid #999;
+  display: inline-block;
+}
+
+.question, .title {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+
+.btn {
+  margin-top: 20px;
+  margin-left: 120px;
+  width: 100px;
+  height: 35px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+}
+
+.btn-submit {
+  background-color: #00afcc;
+}
+
+.btn-reset {
+  background-color: #ea5550;
+}

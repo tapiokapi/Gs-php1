@@ -1,0 +1,24 @@
+* {
+  margin: 5px;
+}
+
+body {
+  background-color: #fafbff;
+}
+
+h1, span{
+  color: #0068b7;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.sucess {
+  color: #65ab31;
+}
+
+.error {
+  color: #ea5532;
+}
